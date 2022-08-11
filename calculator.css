@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+}
+.card{  
+    margin: 0 auto;
+    max-width: 350px;
+   text-align: center;
+   margin-top: 10px;
+   box-shadow: 0px 4px 8px 0 rgba(0,0,0);
+   transition: .3s;
+   font-size: 0;
+}
+.card:hover{
+    box-shadow: 0px 16px 32px 0 rgba(0,0,0);
+}
+#result{
+    width: 335px;
+    height: 100px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: right;
+    padding: 0 5px;
+    letter-spacing: 3px;
+}
+.buttn{
+    width: 85px;
+    height: 70px;
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+    background-color:blueviolet;
+}
+.buttn-style{
+    background-color:purple;
+}
+.buttn:hover{
+    background-color: mediumseagreen;
+}
